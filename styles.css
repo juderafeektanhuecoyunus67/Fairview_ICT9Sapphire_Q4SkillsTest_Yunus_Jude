@@ -1,0 +1,53 @@
+/* General Colors */
+.text-brown { color: #8B4513; }
+.login-body { background: #E0E0E0; padding-top: 50px; }
+
+.main-wrapper { max-width: 1000px; margin: auto; border: 2px solid black; }
+
+/* Input Styling */
+.custom-input {
+    background-color: #333 !important;
+    color: #FFD700 !important;
+    border: none;
+    border-radius: 0;
+}
+.custom-input::placeholder { color: #AAA; }
+
+/* Button Styling */
+.btn-danger-custom { background-color: #F07070; color: black; font-weight: bold; border: 1px solid black; border-radius: 10px; }
+.btn-blue-custom { background-color: #40BFFF; color: black; font-weight: bold; border: 1px solid black; border-radius: 10px; }
+
+/* Subject Cards */
+.subject-box {
+    border: 2px solid black;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 100%;
+    background: #EEE;
+    transition: transform 0.2s;
+}
+.subject-box:hover { transform: scale(1.05); cursor: pointer; }
+
+.subject-header {
+    height: 70px;
+    padding: 10px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-bottom: 2px solid black;
+    display: flex;
+    align-items: center;
+}
+
+.subject-body { padding: 10px; font-size: 0.75rem; color: #444; }
+
+/* Gradient Headers */
+.header-homeroom { background: linear-gradient(to bottom, #A2D9CE, #73C6B6); }
+.header-library { background: linear-gradient(to right, #FF7F50, #87CEFA); }
+.header-science { background: linear-gradient(to bottom, #2ECC71, #239B56); }
+.header-english { background: linear-gradient(to bottom, #E74C3C, #B03A2E); }
+.header-math { background: linear-gradient(to bottom, #3498DB, #1F618D); }
+.header-social { background: linear-gradient(to bottom, #D4AC0D, #9A7D0A); }
+.header-filipino { background: linear-gradient(to bottom, #EB984E, #AF601A); }
+.header-pe { background: linear-gradient(to bottom, #F4D03F, #D4AC0D); }
+.header-values { background: linear-gradient(to bottom, #5DADE2, #2E86C1); }
+.header-ict { background: linear-gradient(to bottom, #8E44AD, #2C3E50); }
