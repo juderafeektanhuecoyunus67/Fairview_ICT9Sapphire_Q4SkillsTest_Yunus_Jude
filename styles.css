@@ -1,6 +1,6 @@
 /* General Colors */
 .text-brown { color: #8B4513; }
-.login-body { background: #E0E0E0; padding-top: 50px; }
+.login-body { background: #000000; padding-top: 50px; }
 
 .main-wrapper { max-width: 1000px; margin: auto; border: 2px solid black; }
 
