@@ -1,8 +1,17 @@
-/* General Colors */
-.text-brown { color: #8B4513; }
-.login-body { background: #000000; padding-top: 50px; }
+/*Start of styles.css*/
 
-.main-wrapper { max-width: 1000px; margin: auto; border: 2px solid black; }
+/* Start index.html */
+
+/* General & Login */
+.login-body { background: #dcdcdc; padding: 20px 0; }
+.custom-input { background: #b2b1b1 !important; color: rgb(255, 255, 255) !important; border-radius: 0; border: 1px solid #020202; }
+.btn-cancel { background: #f07070; border: 2px solid black; font-weight: bold; }
+.btn-login { background: #27b1f6; border: 2px solid black; font-weight: bold; }
+/* End index.html */
+
+
+/* Start Editz */
+
 
 /* Input Styling */
 .custom-input {
@@ -40,14 +49,33 @@
 
 .subject-body { padding: 10px; font-size: 0.75rem; color: #444; }
 
-/* Gradient Headers */
+/* End Editz */
+
+
+
+
+
+/*  Start Notebook Box Styles */
+.subject-box { border: 3px solid rgb(0, 0, 0); border-radius: 15px; overflow: hidden; background: #ffffff; box-shadow: 4px 4px 0px rgba(0,0,0,0.1); margin-bottom: 10px; }
+.subject-header { padding: 15px; font-size: 1.5rem; font-weight: bold; border-bottom: 3px solid black; min-height: 85px; display: flex; align-items: center; color: black; }
+.subject-body { padding: 10px; font-size: 0.8rem; color: #080808; }
+
+/* Home Subjects */
 .header-homeroom { background: linear-gradient(to bottom, #A2D9CE, #73C6B6); }
-.header-library { background: linear-gradient(to right, #FF7F50, #87CEFA); }
+.header-library { background: linear-gradient(to right, #FF7F50, #38deed, #8E44AD); }
+
+/* Major Subjects */
 .header-science { background: linear-gradient(to bottom, #2ECC71, #239B56); }
 .header-english { background: linear-gradient(to bottom, #E74C3C, #B03A2E); }
-.header-math { background: linear-gradient(to bottom, #3498DB, #1F618D); }
+.header-math { background: linear-gradient(to bottom, #1023d2, #1F618D); }
 .header-social { background: linear-gradient(to bottom, #D4AC0D, #9A7D0A); }
 .header-filipino { background: linear-gradient(to bottom, #EB984E, #AF601A); }
-.header-pe { background: linear-gradient(to bottom, #F4D03F, #D4AC0D); }
-.header-values { background: linear-gradient(to bottom, #5DADE2, #2E86C1); }
-.header-ict { background: linear-gradient(to bottom, #8E44AD, #2C3E50); }
+
+/* Minor Subjects (Sync Check) */
+.header-pe { background: linear-gradient(to bottom, #f1c40f, #d4ac0d); }
+.header-values { background: linear-gradient(to bottom, #5dade2, #2e86c1); }
+.header-ict { background: linear-gradient(to bottom, #8e44ad, #2c3e50); }
+.header-music { background: linear-gradient(to bottom, #38deed, #2de7ff) !important; }
+.header-leadership { background: linear-gradient(to bottom, #c1bfbf, #545556) !important; }
+.header-tle { background: linear-gradient(to bottom, #ff63d8, #ff2ecb) !important; }
+/* End Notebook Box Styles */
