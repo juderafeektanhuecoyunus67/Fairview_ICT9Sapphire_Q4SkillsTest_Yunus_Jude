@@ -75,7 +75,7 @@
 .header-pe { background: linear-gradient(to bottom, #f1c40f, #d4ac0d); }
 .header-values { background: linear-gradient(to bottom, #5dade2, #2e86c1); }
 .header-ict { background: linear-gradient(to bottom, #8e44ad, #2c3e50); }
-.header-music { background: linear-gradient(to bottom, #38deed, #2de7ff) !important; }
-.header-leadership { background: linear-gradient(to bottom, #c1bfbf, #545556) !important; }
-.header-tle { background: linear-gradient(to bottom, #ff63d8, #ff2ecb) !important; }
+.header-music { background: linear-gradient(to bottom, #38deed, #2de7ff); }
+.header-leadership { background: linear-gradient(to bottom, #c1bfbf, #545556); }
+.header-tle { background: linear-gradient(to bottom, #ff63d8, #ff2ecb); }
 /* End Notebook Box Styles */
